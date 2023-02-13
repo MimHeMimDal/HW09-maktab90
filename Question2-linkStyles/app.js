@@ -1,16 +1,10 @@
 "use strict";
 
-let externalLinks = Array.from(document.querySelectorAll("a"));
-console.log(externalLinks);
-
 function checkExternal() {
+  let externalLinks = Array.from(document.querySelectorAll("a"));
   for (let item of externalLinks) {
-    console.log(item.pathname);
-    console.log(item.href.includes("https://"));
-    if (
-      item.href.includes("https://") &&
-      !item.href.includes("https://internal.com")
-    ) {
+    let href = item.getAttribute("href");
+    if (href.includes("://") && !href.includes("http://internal.com")) {
       item.style.color = "orange";
     }
   }
