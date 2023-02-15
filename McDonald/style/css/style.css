@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Vazir";
+  src: url(../../Assets/fonts/Vazir-Regular-FD.woff2),
+    url(../../Assets/fonts/Vazir-Variable.woff);
+}
+
+body {
+  font-family: "Vazir";
+}
+
+/* main div:first-child {
+    height: 70vh;
+} */
+
+main div:last-child {
+    height: fit-content;
+} 
+
+.offer {
+    height: 2rem !important;
+    width: 100% !important;
+}
+
+.offer img {
+    width: 2rem !important;
+}
+
+@media (min-width: 992px) {
+  .wrapper {
+    height: 50vh !important;
+  }
+}

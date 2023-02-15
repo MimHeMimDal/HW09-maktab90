@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="rtl">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,8 +8,593 @@
     <link rel="stylesheet" href="./style/css/style.css" />
     <title>Document</title>
   </head>
-  <body>
-    <script src="./style/Boot/bootstrap.bundle.js"></script>
+  <body class="bg-danger py-5 px-3">
+    <main class="row gap-5 mx-auto">
+      <div
+        class="col-12 col-lg-8 col-xl-8 bg-light rounded-4 py-3 px-lg-5 bg-light"
+      >
+        <header class="border-bottom border-2">
+          <h1 class="text-center fw-bold">رستوران مک‌دونالد شعبه تهران</h1>
+        </header>
+        <div class="wrapper overflow-y-scroll overflow-x-hidden mt-2" dir="ltr">
+          <div id="card-wrapper" dir="rtl">
+            <div
+              class="row justify-content-between gap-3 gap-md-0 gap-lg-0 gap-xl-0 g-2"
+            >
+              <div class="col-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
+                <div class="card px-3 py-1 bg-white">
+                  <div class="row">
+                    <div class="col-12 col-md-4 col-lg-4">
+                      <img
+                        class="w-100 h-100 object-fit-cover"
+                        src="./Assets/img/hamburger.png"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      class="col-12 col-md-8 col-lg-8 p-0 d-flex justify-content-evenly flex-column"
+                    >
+                      <div class="fw-bold">همبرگر معمولی</div>
+                      <div>8000 تومان</div>
+                      <div
+                        class="d-flex justify-content-between align-items-center gap-3"
+                      >
+                        <div class="d-flex align-items-center flex-grow-1">
+                          <div class="bg-danger rounded-start">
+                            <img
+                              class="add"
+                              src="./Assets/img/add.png"
+                              alt=""
+                            />
+                          </div>
+                          <div
+                            class="w-100 text-center"
+                            data-amount="normalHamburger"
+                          >
+                            0
+                          </div>
+                          <div class="bg-danger rounded-end">
+                            <img
+                              class="minus"
+                              src="./Assets/img/minus.png"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div
+                          class="flex-grow-1 text-end totalPrice"
+                          data-total-price="normalHamburger"
+                        >
+                          0 تومان
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
+                <div class="card px-3 py-1 bg-white">
+                  <div class="row">
+                    <div class="col-12 col-md-4 col-lg-4">
+                      <img
+                        class="w-100 h-100 object-fit-cover"
+                        src="./Assets/img/hamburger.png"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      class="col-12 col-md-8 col-lg-8 p-0 d-flex justify-content-evenly flex-column"
+                    >
+                      <div class="fw-bold">همبرگر مخصوص</div>
+                      <div>10000 تومان</div>
+                      <div
+                        class="d-flex justify-content-between align-items-center gap-3"
+                      >
+                        <div class="d-flex align-items-center flex-grow-1">
+                          <div class="bg-danger rounded-start">
+                            <img
+                              class="add"
+                              src="./Assets/img/add.png"
+                              alt=""
+                            />
+                          </div>
+                          <div
+                            class="w-100 text-center"
+                            data-amount="especialHamburger"
+                          >
+                            0
+                          </div>
+                          <div class="bg-danger rounded-end">
+                            <img
+                              class="minus"
+                              src="./Assets/img/minus.png"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div
+                          class="flex-grow-1 text-end totalPrice"
+                          data-total-price="especialHamburger"
+                        >
+                          0 تومان
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
+                <div class="card px-3 py-1 bg-white">
+                  <div class="row">
+                    <div class="col-12 col-md-4 col-lg-4">
+                      <img
+                        class="w-100 h-100 object-fit-cover"
+                        src="./Assets/img/hamburger.png"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      class="col-12 col-md-8 col-lg-8 p-0 d-flex justify-content-evenly flex-column"
+                    >
+                      <div class="fw-bold">همبرگر معمولی با قارچ و پنیر</div>
+                      <div>10000 تومان</div>
+                      <div
+                        class="d-flex justify-content-between align-items-center gap-3"
+                      >
+                        <div class="d-flex align-items-center flex-grow-1">
+                          <div class="bg-danger rounded-start">
+                            <img
+                              class="add"
+                              src="./Assets/img/add.png"
+                              alt=""
+                            />
+                          </div>
+                          <div
+                            class="w-100 text-center"
+                            data-amount="normalHamburgerWithMushrooms"
+                          >
+                            0
+                          </div>
+                          <div class="bg-danger rounded-end">
+                            <img
+                              class="minus"
+                              src="./Assets/img/minus.png"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div
+                          class="flex-grow-1 text-end totalPrice"
+                          data-total-price="normalHamburgerWithMushrooms"
+                        >
+                          0 تومان
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
+                <div class="card px-3 py-1 bg-white">
+                  <div class="row">
+                    <div class="col-12 col-md-4 col-lg-4">
+                      <img
+                        class="w-100 h-100 object-fit-cover"
+                        src="./Assets/img/hamburger.png"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      class="col-12 col-md-8 col-lg-8 p-0 d-flex justify-content-evenly flex-column"
+                    >
+                      <div class="fw-bold">همبرگر مخصوص با قارچ و پنیر</div>
+                      <div>20000 تومان</div>
+                      <div
+                        class="d-flex justify-content-between align-items-center gap-3"
+                      >
+                        <div class="d-flex align-items-center flex-grow-1">
+                          <div class="bg-danger rounded-start">
+                            <img
+                              class="add"
+                              src="./Assets/img/add.png"
+                              alt=""
+                            />
+                          </div>
+                          <div
+                            class="w-100 text-center"
+                            data-amount="especialHamburgerWithMushrooms"
+                          >
+                            0
+                          </div>
+                          <div class="bg-danger rounded-end">
+                            <img
+                              class="minus"
+                              src="./Assets/img/minus.png"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div
+                          class="flex-grow-1 text-end totalPrice"
+                          data-total-price="especialHamburgerWithMushrooms"
+                        >
+                          0 تومان
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
+                <div class="card px-3 py-1 bg-white">
+                  <div class="row">
+                    <div class="col-12 col-md-4 col-lg-4">
+                      <img
+                        class="w-100 h-100 object-fit-cover"
+                        src="./Assets/img/french_fries.png"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      class="col-12 col-md-8 col-lg-8 p-0 d-flex justify-content-evenly flex-column"
+                    >
+                      <div class="fw-bold">سیب‌زمینی سرخ‌کرده ویژه</div>
+                      <div>250000 تومان</div>
+                      <div
+                        class="d-flex justify-content-between align-items-center gap-3"
+                      >
+                        <div class="d-flex align-items-center flex-grow-1">
+                          <div class="bg-danger rounded-start">
+                            <img
+                              class="add"
+                              src="./Assets/img/add.png"
+                              alt=""
+                            />
+                          </div>
+                          <div
+                            class="w-100 text-center"
+                            data-amount="especialFries"
+                          >
+                            0
+                          </div>
+                          <div class="bg-danger rounded-end">
+                            <img
+                              class="minus"
+                              src="./Assets/img/minus.png"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div
+                          class="flex-grow-1 text-end totalPrice"
+                          data-total-price="especialFries"
+                        >
+                          0 تومان
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
+                <div class="card px-3 py-1 bg-white">
+                  <div class="row">
+                    <div class="col-12 col-md-4 col-lg-4">
+                      <img
+                        class="w-100 h-100 object-fit-cover"
+                        src="./Assets/img/french_fries.png"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      class="col-12 col-md-8 col-lg-8 p-0 d-flex justify-content-evenly flex-column"
+                    >
+                      <div class="fw-bold">سیب‌زمینی سرخ‌کرده</div>
+                      <div>10000 تومان</div>
+                      <div
+                        class="d-flex justify-content-between align-items-center gap-3"
+                      >
+                        <div class="d-flex align-items-center flex-grow-1">
+                          <div class="bg-danger rounded-start">
+                            <img
+                              class="add"
+                              src="./Assets/img/add.png"
+                              alt=""
+                            />
+                          </div>
+                          <div
+                            class="w-100 text-center"
+                            data-amount="normalFries"
+                          >
+                            0
+                          </div>
+                          <div class="bg-danger rounded-end">
+                            <img
+                              class="minus"
+                              src="./Assets/img/minus.png"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div
+                          class="flex-grow-1 text-end totalPrice"
+                          data-total-price="normalFries"
+                        >
+                          0 تومان
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
+                <div class="card px-3 py-1 bg-white">
+                  <div class="row">
+                    <div class="col-12 col-md-4 col-lg-4">
+                      <img
+                        class="w-100 h-100 object-fit-cover"
+                        src="./Assets/img/soda.png"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      class="col-12 col-md-8 col-lg-8 p-0 d-flex justify-content-evenly flex-column"
+                    >
+                      <div class="fw-bold">نوشابه رژیمی</div>
+                      <div>6000 تومان</div>
+                      <div
+                        class="d-flex justify-content-between align-items-center gap-3"
+                      >
+                        <div class="d-flex align-items-center flex-grow-1">
+                          <div class="bg-danger rounded-start">
+                            <img
+                              class="add"
+                              src="./Assets/img/add.png"
+                              alt=""
+                            />
+                          </div>
+                          <div class="w-100 text-center" data-amount="dietCoke">
+                            0
+                          </div>
+                          <div class="bg-danger rounded-end">
+                            <img
+                              class="minus"
+                              src="./Assets/img/minus.png"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div
+                          class="flex-grow-1 text-end totalPrice"
+                          data-total-price="dietCoke"
+                        >
+                          0 تومان
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
+                <div class="card px-3 py-1 bg-white">
+                  <div class="row">
+                    <div class="col-12 col-md-4 col-lg-4">
+                      <img
+                        class="w-100 h-100 object-fit-cover"
+                        src="./Assets/img/soda.png"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      class="col-12 col-md-8 col-lg-8 p-0 d-flex justify-content-evenly flex-column"
+                    >
+                      <div class="fw-bold">نوشابه</div>
+                      <div>5000 تومان</div>
+                      <div
+                        class="d-flex justify-content-between align-items-center gap-3"
+                      >
+                        <div class="d-flex align-items-center flex-grow-1">
+                          <div class="bg-danger rounded-start">
+                            <img
+                              class="add"
+                              src="./Assets/img/add.png"
+                              alt=""
+                            />
+                          </div>
+                          <div class="w-100 text-center" data-amount="coke">
+                            0
+                          </div>
+                          <div class="bg-danger rounded-end">
+                            <img
+                              class="minus"
+                              src="./Assets/img/minus.png"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div
+                          class="flex-grow-1 text-end totalPrice"
+                          data-total-price="coke"
+                        >
+                          0 تومان
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
+                <div class="card px-3 py-1 bg-white">
+                  <div class="row">
+                    <div class="col-12 col-md-4 col-lg-4">
+                      <img
+                        class="w-100 h-100 object-fit-cover"
+                        src="./Assets/img/salad.png"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      class="col-12 col-md-8 col-lg-8 p-0 d-flex justify-content-evenly flex-column"
+                    >
+                      <div class="fw-bold">سالاد فصل</div>
+                      <div>8000 تومان</div>
+                      <div
+                        class="d-flex justify-content-between align-items-center gap-3"
+                      >
+                        <div class="d-flex align-items-center flex-grow-1">
+                          <div class="bg-danger rounded-start">
+                            <img
+                              class="add"
+                              src="./Assets/img/add.png"
+                              alt=""
+                            />
+                          </div>
+                          <div class="w-100 text-center" data-amount="salad">
+                            0
+                          </div>
+                          <div class="bg-danger rounded-end">
+                            <img
+                              class="minus"
+                              src="./Assets/img/minus.png"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div
+                          class="flex-grow-1 text-end totalPrice"
+                          data-total-price="salad"
+                        >
+                          0 تومان
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
+                <div class="card px-3 py-1 bg-white">
+                  <div class="row">
+                    <div class="col-12 col-md-4 col-lg-4">
+                      <img
+                        class="w-100 h-100 object-fit-cover"
+                        src="./Assets/img/ceasar.png"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      class="col-12 col-md-8 col-lg-8 p-0 d-flex justify-content-evenly flex-column"
+                    >
+                      <div class="fw-bold">سالاد سزار</div>
+                      <div>25000 تومان</div>
+                      <div
+                        class="d-flex justify-content-between align-items-center gap-3"
+                      >
+                        <div class="d-flex align-items-center flex-grow-1">
+                          <div class="bg-danger rounded-start">
+                            <img
+                              class="add"
+                              src="./Assets/img/add.png"
+                              alt=""
+                            />
+                          </div>
+                          <div class="w-100 text-center" data-amount="ceasar">
+                            0
+                          </div>
+                          <div class="bg-danger rounded-end">
+                            <img
+                              class="minus"
+                              src="./Assets/img/minus.png"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div
+                          class="flex-grow-1 text-end totalPrice"
+                          data-total-price="ceasar"
+                        >
+                          0 تومان
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 col-xl-3 bg-light rounded-4 p-3 mx-md-auto">
+        <div class="d-flex flex-column gap-5">
+          <div class="d-flex flex-column gap-2">
+            <div class="d-flex justify-content-between">
+              <span>جمع کل سفارشات:</span><span id="totalPrice">0 تومان</span>
+            </div>
+            <div class="d-flex justify-content-between">
+              <span>حق سرویس و کارمزد:</span><span id="fee">0 تومان</span>
+            </div>
+            <div class="d-flex justify-content-between">
+              <span>تخفیف:</span><span id="off">0 تومان</span>
+            </div>
+            <div class="d-flex offer align-self-stretch">
+              <input
+                id="off-input"
+                class="bg-white border-0 w-100"
+                type="text"
+                placeholder="کد تخفیف:"
+              />
+              <img
+                id="off-btn"
+                class="bg-danger rounded-end"
+                src="./Assets/img/tick.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="d-flex flex-column gap-2">
+            <div
+              class="bg-warning d-flex justify-content-between p-2 rounded-1"
+            >
+              <span class="fw-bold">مبلغ قابل پرداخت</span>
+              <span class="fw-bold" id="finalPrice">0 تومان</span>
+            </div>
+            <button
+              id="finalSubmit"
+              class="bg-danger text-white text-center w-100 rounded-2 btn"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              ثبت سفارش
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="bg-white p-3 rounded-3 mx-auto d-flex align-items-center flex-column">
+          <div class="modal-body">سفارش شما با موفقیت ثبت شد</div>
+
+          <button
+          id="modal-btn"
+            type="button"
+            class="btn btn-danger w-25"
+            data-bs-dismiss="modal"
+          >
+            باشه
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./style/Boot/bootstrap.js"></script>
     <script src="app.js"></script>
   </body>
 </html>
