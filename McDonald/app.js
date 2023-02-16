@@ -113,7 +113,7 @@ function displayFinalPrice(offer = "noOffer") {
   totalPrice.textContent = `${totalPriceObj} تومان `;
   fee.textContent = `${totalPriceObj * mainData.fee} تومان `;
   finalPriceBox.textContent = ` ${
-    totalPriceObj -
+    totalPriceObj +
     totalPriceObj * mainData.fee -
     totalPriceObj * mainData[offer]
   } تومان`;
